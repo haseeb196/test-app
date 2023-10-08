@@ -13,6 +13,7 @@ module.exports = {
       },
     },
   },
+
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {

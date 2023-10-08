@@ -8,6 +8,7 @@ const FirstBall = () => {
       height="46"
       viewBox="0 0 93 46"
       fill="none"
+      className="md:w-[93px] md:h-[46px] w-[54px] h-[54px]"
     >
       <g clip-path="url(#clip0_1_1621)">
         <path

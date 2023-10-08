@@ -6,6 +6,7 @@ const SecondBall = () => {
       height="94"
       viewBox="0 0 117 94"
       fill="none"
+      className="md:block hidden"
     >
       <g clip-path="url(#clip0_1_1036)">
         <path

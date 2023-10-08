@@ -12,7 +12,7 @@ import { Tooltip } from "@mui/material";
 import React from "react";
 const Sidebar = () => {
   return (
-    <div className="bg-[#F1EDFD] py-[24px] px-[15px] flex flex-col min-h-full justify-between !w-[106px] fixed">
+    <div className="bg-[#F1EDFD] hidden py-[24px] px-[15px] md:flex flex-col min-h-full justify-between !w-[106px] fixed">
       <div className="flex flex-col gap-y-[45px] items-center">
         <a href="/">
           <img src="/sidebar/Logo.svg" alt="" className="w-[38px] h-[40px]" />

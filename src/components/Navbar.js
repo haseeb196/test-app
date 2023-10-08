@@ -8,11 +8,12 @@ import {
   Tune,
 } from "@mui/icons-material";
 import { Tooltip } from "@mui/material";
-import React from "react";
-
+import React, { useContext } from "react";
+import { mycontext } from "./Usercontext";
 const Navbar = () => {
+  const { user } = useContext(mycontext);
   return (
-    <div className="flex">
+    <div className="md:flex hidden">
       <div className="shadow-lg border h-[81px] items-center bg-[#f2f2f5]   flex justify-between px-3 flex-1 lg:gap-x-40 md:gap-x-20 gap-x-10">
         <div className="flex bg-white border h-[48px]  flex-grow rounded-md justify-between items-center px-3 gap-x-1">
           <div className="flex gap-x-1 flex-grow items-center justify-center">
@@ -83,7 +84,7 @@ const Navbar = () => {
         </Tooltip>
         <button className="relative p-[18px] rounded-lg hover:bg-[#f7f6f6] focus:!bg-[#EAE4FC] group">
           <img
-            src="https://yt3.ggpht.com/a/AATXAJzsHPys1EoSnxprcPapwsQsb1gr97KzKfnRBw=s900-c-k-c0xffffffff-no-rj-mo"
+            src={user?.photoURL}
             className="rounded-[10px] w-10 h-10 transform transition-transform ease-in-out duration-300 group-focus:translate-y-1"
             alt=""
           />
