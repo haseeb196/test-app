@@ -11,7 +11,7 @@ const Social = () => {
       <div className="flex flex-row  gap-3 md:gap-[18px] md:flex-wrap overflow-x-auto sm:overflow-x-visible">
         <Box
           icon={
-            <EditOutlined className="!text-orange-400 maxsm:!w-5 maxsm:!h-5" />
+            <EditOutlined className="!text-orange-400 !w-5 !h-5 md:!w-7 md:!h-7" />
           }
           text={
             "Generate the best blog post to fit your audience with just few clicks of a button"
@@ -20,7 +20,7 @@ const Social = () => {
         />
         <Box
           icon={
-            <EditNote className="!text-purple-600 !w-8 !h-8 maxsm:!w-6 maxsm:!h-6" />
+            <EditNote className="!text-purple-600 !w-5 !h-5 md:!w-7 md:!h-7" />
           }
           title={"Article writer"}
           text={
@@ -28,13 +28,15 @@ const Social = () => {
           }
         />
         <Box
-          icon={<EditRoad className="!text-green-500 maxsm:!w-6 maxsm:!h-6" />}
+          icon={
+            <EditRoad className="!text-green-500 !w-5 !h-5 md:!w-7 md:!h-7" />
+          }
           title={"Product description"}
           text={"Instantly generate engaging product descriptions that sell"}
         />
         <Box
           icon={
-            <EditOutlined className="!text-orange-400 maxsm:!w-5 maxsm:!h-5" />
+            <EditOutlined className="!text-orange-400 !w-5 !h-5 md:!w-7 md:!h-7" />
           }
           title={"Blog Writing"}
           text={
